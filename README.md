@@ -18,6 +18,7 @@ Filter expression yang digunakan :
 HTTP
 ```
 Lalu , `export objects berupa HTTP`
+![](/img/2.png)
 ### No. 3 
 Cari username dan password ketika login di "ppid.dpr.go.id"!
 ### No. 4
