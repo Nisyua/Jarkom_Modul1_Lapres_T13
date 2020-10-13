@@ -10,12 +10,13 @@
 Sebutkan webserver yang digunakan pada ***"testing.mekanis.me"!***
 ### No. 2 
 Simpan gambar **"Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"**!
+
 **Penyelesaian**
 Filter expression yang digunakan : 
 ```
 HTTP
 ```
-Lalu , ```export objects berupa HTTP```
+Lalu , `export objects berupa HTTP`
 ### No. 3 
 Cari username dan password ketika login di "ppid.dpr.go.id"!
 ### No. 4
