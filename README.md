@@ -1,4 +1,8 @@
-# Nisyua-Jarkom_Modul1_Lapres_T13
+# Jarkom_Modul1_Lapres_T13
+
+### Disusun oleh :
+- Anis Saidatur Rochma [05311840000002]
+- Desya Ananda Puspita Dewi [05311840000046]
 
 ## A. Display Filter
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
