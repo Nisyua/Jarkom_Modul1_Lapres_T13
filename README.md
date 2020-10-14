@@ -49,6 +49,21 @@ Cari username dan password ketika login FTP pada localhost!
 Cari file .pdf di wireshark lalu download dan buka file tersebut!
     ***clue: "25 50 44 46"*** 
 
+**Penyelesaian**
+
+` ctrl + F ` dan cari data dengan menggunakan hex value `25 50 44 46`
+
+![](/img/10.1.png)
+
+Setelah menemukan hex value nya, klik kanan dan TCP Follow. Kemudian save as dalam bentuk Raw agar dapat membaca file .pdf
+
+![](/img/10-2.png)
+![](/img/10-3.png)
+
+file .pdf berhasil ter-unduh dan dapat dilihat isi dari .pdf tersebut
+
+![](/img/10-4.png)
+
 ## B. Capture Filter
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
