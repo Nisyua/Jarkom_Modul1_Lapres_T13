@@ -57,8 +57,8 @@ Cari file .pdf di wireshark lalu download dan buka file tersebut!
 
 Setelah menemukan hex value nya, klik kanan dan TCP Follow. Kemudian save as dalam bentuk Raw agar dapat membaca file .pdf
 
-![](/img/10-2.png)
 ![](/img/10-3.png)
+![](/img/10-2.png)
 
 file .pdf berhasil ter-unduh dan dapat dilihat isi dari .pdf tersebut
 
