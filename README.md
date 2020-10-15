@@ -29,6 +29,15 @@ setelah itu text filter dengan kata "sukabumi", dan `Save`
 ### No. 3 
 Cari username dan password ketika login di "ppid.dpr.go.id"!
 
+```
+http.request.method==POST
+```
+![](/img/3.png)
+
+lalu , klik ```tcp stream``` , kemudian cari ***username*** dan ***password***
+
+![](/img/3l.png)
+
 **Penyelesaian**
 
 
