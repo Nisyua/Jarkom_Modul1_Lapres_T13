@@ -96,8 +96,24 @@ Saat file berhasil dibuka, akan menampilkan isi dari file ___Open This.pdf*___
 ### No. 7 
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
 Your Super Mega Ultra Rare Hint = nama pdf-nya ***"Yes.pdf"***
+
 ### No. 8 
 Cari objek apa saja yang didownload ***(RETR)*** dari koneksi FTP dengan Microsoft FTP Service!
+
+Cari IP dari Microsoft FTP Sevice dengan menggunakan
+```
+ftp contains "Microsoft"
+```
+
+![](/img/8-1.png)
+
+Kemudian cari objek yang didownload dengan menggunakan 
+```
+ftp.request.command contains "RETR" && ip.dst ==198.246.117.106
+```
+
+![](/img/8-2.png)
+
 ### No. 9
 Cari username dan password ketika login FTP pada localhost!
 
@@ -106,6 +122,7 @@ ftp.request.command==USER || ftp.request.command==PASS
 ```
 
 ![](/img/9.png)
+
 ### No. 10 
 Cari file .pdf di wireshark lalu download dan buka file tersebut!
     ***clue: "25 50 44 46"*** 
