@@ -62,7 +62,7 @@ Setelah menemukan hex value nya, klik kanan dan TCP Follow. Kemudian save as dal
 
 file .pdf berhasil ter-unduh dan dapat dilihat isi dari .pdf tersebut
 
-![](/img/10-4.png)
+![](/img/10.4.png)
 
 ## B. Capture Filter
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
