@@ -38,11 +38,12 @@ lalu , klik ```tcp stream``` , kemudian cari ***username*** dan ***password***
 
 ![](/img/3l.png)
 
-**Penyelesaian**
-
-
 ### No. 4
 Temukan paket dari **web-web** yang menggunakan **basic authentication** method!
+
+```http.authbasic```
+![](/img/4.png)
+
 ### No. 5
 Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 ### No. 6
