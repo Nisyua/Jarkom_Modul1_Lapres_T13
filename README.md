@@ -42,10 +42,22 @@ lalu , klik ```tcp stream``` , kemudian cari ***username*** dan ***password***
 Temukan paket dari **web-web** yang menggunakan **basic authentication** method!
 
 ```http.authbasic```
+
 ![](/img/4.png)
 
 ### No. 5
 Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+
+```http.host==aku.pengen.pw```
+
+Lalu buka bagian Authorization (bawah) dan ada *credentials*
+
+![](/img/5.png)
+
+Lalu ikuti sesuai dengan perintah 
+
+![](/img/5a.png)
+
 ### No. 6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file ***"Open This.pdf"*** di ***Answer.zip.*** Untuk mendapatkan password zipnya, temukan dalam file ***zipkey.txt*** (passwordnya adalah isi dari file txt tersebut).
 ### No. 7 
@@ -80,3 +92,8 @@ file .pdf berhasil ter-unduh dan dapat dilihat isi dari .pdf tersebut
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+Capture file dengan ```dst monta.if.its.ac.id```
+
+![](/img/15a.png)
+
