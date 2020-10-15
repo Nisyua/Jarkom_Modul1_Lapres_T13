@@ -8,6 +8,16 @@
 
 ### No. 1 
 Sebutkan webserver yang digunakan pada ***"testing.mekanis.me"!***
+
+```
+http.host==testing.mekanisme.me
+```
+![](/img/1.png)
+
+lalu klik kanan, pilih **TCP STREAM**
+
+![](/img/1b.png)
+
 ### No. 2 
 Simpan gambar **"Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"**!
 
@@ -67,6 +77,12 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya ***"Yes.pdf"***
 Cari objek apa saja yang didownload ***(RETR)*** dari koneksi FTP dengan Microsoft FTP Service!
 ### No. 9
 Cari username dan password ketika login FTP pada localhost!
+
+```
+ftp.request.command==USER || ftp.request.command==PASS
+```
+
+![](/img/9.png)
 ### No. 10 
 Cari file .pdf di wireshark lalu download dan buka file tersebut!
     ***clue: "25 50 44 46"*** 
