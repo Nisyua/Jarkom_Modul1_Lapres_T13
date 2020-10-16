@@ -97,6 +97,18 @@ Saat file berhasil dibuka, akan menampilkan isi dari file ___Open This.pdf*___
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
 Your Super Mega Ultra Rare Hint = nama pdf-nya ***"Yes.pdf"***
 
+Capture file dengan ```ftp-data contains "Yes.pdf"```
+
+![](/img/7-1.png)
+
+lalu klik kanan, pilih **TCP STREAM**
+
+![](/img/7-2.png)
+
+Save sebagai ***Yes.zip*** kemudian buka file didalam zip yaitu berupa ___Yes.pdf___
+
+![](/img/7-3.png)
+
 ### No. 8 
 Cari objek apa saja yang didownload ***(RETR)*** dari koneksi FTP dengan Microsoft FTP Service!
 
