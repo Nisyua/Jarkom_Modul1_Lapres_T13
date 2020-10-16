@@ -144,9 +144,36 @@ file .pdf berhasil ter-unduh dan dapat dilihat isi dari .pdf tersebut
 
 ## B. Capture Filter
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+Capture file dengan ```port 21```
+
+![](/img/11.png)
+
 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+Capture file dengan ```tcp src port 80```
+
+![](/img/12.png)
+![](/img/12-1.png)
+
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Capture file dengan ```tcp dst port 443```
+
+![](/img/13.png)
+![](/img/13-1.png)
+
 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Cari ip address dari pc dengan menggunakan cmd
+
+![](/img/14_1.png)
+
+Capture file dengan ```ip src <ip address>```
+contohnya sebagai berikut yaitu ```ip src 192.168.1.2```
+
+![](/img/14_2.png)
+
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
 Capture file dengan ```dst monta.if.its.ac.id```
